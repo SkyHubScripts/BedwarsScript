@@ -667,54 +667,7 @@ Aimbot_2.Text = "AutoToxic"
 Aimbot_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Aimbot_2.TextSize = 21.000
 Aimbot_2.MouseButton1Down:connect(function()
-	local words = {
-		'ur bad',
-		'CLOWN',
-		'GET GOOD',
-		'IM TOO GOOD FOR YA THATS WHY IM HACKING',
-		'IM NOT EVEN TRYING LOL',
-		'I CAN BEAT YOU WITHOUT HACKS LOL',
-		'BOZO',
-		'LITTLE KID IDC IF YOU REPORT ME NONE CARES',
-		'SKID',
-		'LOLLLLLLL',
-		'WATCH ME WIN KID',
-		'SOMEONE PLEASE REPORT ME PLEASEEEEEEEEEE',
-		'AM TOXIC I HOPE YOU DONT GOT A PROBLEM SKID',
-		'EZZZZZZZZZZZZZZZ',
-		'SKIDS COMOE RUSH ME GIVE ME THAT XP',
-		'CAN SOMEONE RUSH PLEASE BECAUSE I KNOW YOU ARE ALL BAD',
-		'DIE EZZZZZZZ',
-		'BADD',
-		'BOZO',
-		'LIL BOZE',
-		'IM ON TOP BEST BEDWARS PLAYER',
-		'BEDWARS PRO UNLIKE YOU GO CRY ',
-		'ITS YOUR BEDTIME GO TO BED YOUR MUM IS CALLING',
-		'GO BACK TO YOUR MUM SHE IS CALLING YOU FOR A TEA PARTY',
-		'GO PLAY YOUR BARBIE DOLL',
-		'EZ',
-		'YOU GUYS SHOULD TRY HACKING MAYBE YOU WILL GET GOOD',
-		'EZ',
-		'PIECE OF SHI5 I WILL KNOCK YOU OUT AND SEND YOU BACK TO WHERE YOU CAME FROM',
-		'BOZO',
-		'GET WRECKED EZ SKID',
-		'SKID',
-		'LOLLLLLLL',
-		'WATCH ME WIN KID',
-		'I WON EZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ',
-	}
-
-	local player = game.Players.LocalPlayer
-	local keybind = 'y'
-
-	local event = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
-
-	player:GetMouse().KeyDown:connect(function(key)
-		if key == keybind then
-			event:FireServer(words[math.random(#words)], "All")
-		end
-	end)
+end)
 		
 
 AntiKnockback_Roundify_4px_10.Name = "AntiKnockback_Roundify_4px"
